@@ -313,3 +313,613 @@
 // cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
+
+
+// OBJECTS ARE SIMILAR TO ARRAYS EXCEPT 
+
+// YOU ACCESS THE DATA THROUGH WHAT ARE CALLED AS PROPERTIES
+
+// OBJECTS ARE USEFUL FOR STORING DATA IN A STRUCTURED WAY AND CAN REPRESENT REAL WORLD OBJECTS LIKE CAT
+
+var cat = {
+  "name" : "whiskers",
+  "legs" : 4,
+  "tails" : 1,
+  "enemies" : ["water","dogs"]
+};
+
+// if you have non-string properties js will automatically typecast them as strings
+
+
+
+
+
+
+
+// // ACCESSING THROUGH THE DOT NOTATION
+
+// // Setup
+// var testObj = {
+//   "hat": "ballcap",
+//   "shirt": "jersey",
+//   "shoes": "cleats"
+// };
+
+// // Only change code below this line
+
+// var hatValue = testObj.hat;      
+// var shirtValue = testObj.shirt;    
+
+
+
+
+
+
+// // ACCESSING THROUGH THE BRACKET NOTATION
+
+// var myObj = {
+//    'Space Name' : "kirk",
+//    'More Space' : "spock",
+//    'NoSpace' : "Uss Enterprise"
+// };
+
+// console.log(myObj["Space Name"]);
+
+
+
+
+
+
+
+
+
+
+
+
+// // ACCESSING THE OBJECT PROPERTIES WITH VARIABLES
+
+// var dogs  = {
+// Fido : "Mutt",
+// Hunter : "Doberman",
+// Snopie : "Beagle"
+// };
+
+// var myDog = "Hunter";
+
+// var myBreed = dogs[myDog];
+
+// console.log(myBreed);
+
+
+
+
+
+
+
+
+
+
+// // another way to use this concept is when the property's name is collected dynamically during the program execution
+
+// var someObj = {
+//   propName : "John"
+// };
+
+
+// function propPrefix(str)
+// {
+//   var s = "prop";
+//   return s + str;
+// }
+
+// console.log(someObj[propPrefix("Name")]);
+
+
+
+
+
+
+
+
+
+
+// // updating the object properties
+
+// var OurDog = {
+//   "name" : "Camper",
+//   "legs" : 4,
+//   "tails": 1,
+//   "friends":["everything"]
+// }
+
+// OurDog.name = "Happy Camper";
+
+// OurDog["friends"][0] = "merry Camper";
+// console.log(OurDog.name);
+// console.log(OurDog["friends"]);
+
+
+
+
+
+
+
+
+
+// // ADDING NEW PROPERTIES TO THE JS OBJECTS
+// // you can add new properties to the existing js objects the same way you modify them
+
+// var ourDog = {
+//   "name": "Camper",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["everything!"]
+// };
+
+// ourDog.bark = "bow-wow";
+// // or 
+// ourDog["color"] = "brown";
+// console.log(ourDog.bark + " " + ourDog["color"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // DELETING THE ELEMENTS OF OBJECTS
+
+// var ourDog = {
+//   "name": "Camper",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["everything!"],
+//   "bark": "bow-wow"
+// };
+
+// delete ourDog.bark;
+
+// console.log(ourDog);
+
+
+
+
+
+
+
+// // look up object 
+
+// // Setup
+// function phoneticLookup(val) {
+//   var result = "";
+
+//   // Only change code below this line
+//   var result = {
+//    "alpha": "Adams",
+//    "bravo":"Boston",
+//     "charlie":"Chicago",
+//     "delta":"Denver",
+//     "echo":"Easy",
+//     "foxtrot":"Frank"
+//   }
+//   result = result[val];
+//   // Only change code above this line
+//   return result;
+// }
+
+// phoneticLookup("charlie");
+
+
+
+
+
+
+// Testing Objects for Properties
+
+// var myObj = {
+//   top : "hat",
+//   bottom : "pants"
+// }
+
+// console.log(myObj.hasOwnProperty("top"));
+
+
+
+
+
+
+
+
+
+
+
+
+// // Manipulating complex object 
+
+// // the  A JAVASCRIPT OBJECT IS A ONE WAY TO OBJECT TO STORE FLEXIBLE DATA
+
+// // they allow for arbitrary combinations of strings, numbers, booleans, arrays, function and objects
+
+// var ourMusic = [
+//   {
+//     "artist": "Daft Punk",
+//     "title" : "Home Work",
+//     "release_year":1997,
+//     "formats": ["CD","Cassets","LP"],
+//     "gold": true
+//   }
+
+// ];
+
+
+
+
+
+
+
+
+
+// // Accessing the nested Objects
+
+// var ourStorage = {
+//    "Desk": {
+//      "drawer" : "Stapler"
+//    },
+//    "cabinet":{
+//      "top Drawer":{
+//        "folder 1": "a file",
+//        "folder2": "a secret file"
+//      },
+//      "bottom Drawer":"soda"
+//    }
+// }
+
+// console.log(ourStorage.cabinet["top Drawer"].folder2);
+
+
+
+
+
+
+
+
+
+// // accessing the nested arrays
+
+// var ourPets = [
+//   {
+//     "animaltype": "Cat",
+//     "names" : [
+//       "meowzer",
+//       "fluffy",
+//       "kit_cat"
+//     ]
+//   },
+//   {
+//     "animaltype": "Dog",
+//     "names" : [
+//       "Spot",
+//       "Bowser",
+//       "Frankie"
+//     ]
+//   }
+// ];
+
+// console.log(ourPets[0].names[1]);
+// console.log(ourPets[1].names[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Record Collection
+
+// // Setup
+// var collection = {
+//   2548: {
+//     album: "Slippery When Wet",
+//     artist: "Bon Jovi",
+//     tracks: [
+//       "Let It Rock",
+//       "You Give Love a Bad Name"
+//     ]
+//   },
+//   2468: {
+//     album: "1999",
+//     artist: "Prince",
+//     tracks: [
+//       "1999",
+//       "Little Red Corvette"
+//     ]
+//   },
+//   1245: {
+//     artist: "Robert Palmer",
+//     tracks: [ ]
+//   },
+//   5439: {
+//     album: "ABBA Gold"
+//   }
+// };
+
+// // Only change code below this line
+// function updateRecords(id, prop, value) {
+  
+//   if(value!="")
+//   {
+//     if(collection[id].hasOwnProperty(prop))
+//      {
+//        if(prop == "tracks")
+//        collection[id][prop].push(value);
+//        else 
+//        collection[id][prop]  = value;
+//      }
+//     else
+//     {
+//       if(prop == "tracks")
+//       {
+//          collection[id][prop] = [value];
+//       }
+//       else
+//         collection[id][prop]  = value;
+//     }
+//   }
+//   else
+//    delete collection[id][prop];
+
+//   return collection;
+// }
+
+// updateRecords(5439, "artist", "ABBA");
+
+
+
+
+
+
+
+// // iterate with javaScript while loops
+
+// var ourArray = [];
+
+// var i = 0;
+
+// while(i<5){
+//   ourArray.push(i);
+//   i++;
+// }
+// console.log(ourArray);
+
+
+
+
+
+
+
+// // iterate with javaScript for loops
+
+// // this one runs for a specific number of times
+
+// var ourArray = [];
+
+// for(var i = 0 ; i < 5 ; i++)
+// {
+//   ourArray.push(i);
+// }
+// console.log(ourArray);
+
+
+
+
+
+
+
+
+
+
+// // iterating with odd numbers for a 'for' loop
+// var ourArray = [];
+
+// for(var i = 0 ; i < 10; i+=2)
+// {
+//   ourArray.push(i);
+// }
+// console.log(ourArray);
+
+
+
+
+
+
+
+
+
+
+// // count backwards with a for loop
+
+// var ourArray = [];
+// for(var i = 10 ; i > 0  ; i-=2)
+// {
+//   ourArray.push(i);
+// }
+
+// console.log(ourArray);
+
+
+
+
+
+
+
+
+// // nesting for loops
+
+// var arr = [
+//   [1,2],[3,4],[5,6]
+// ];
+
+// for( var i = 0  ; i < arr.length ; i++)
+// {
+//   for(var j = 0 ; j < arr[i].length ; j ++)
+//   {
+//     console.log(arr[i][j])
+//   }
+// }
+
+
+
+
+
+// // using the do-while loop
+
+// var ourArray = [];
+// var i = 0;
+// do {
+//   ourArray.push(i);
+//   i++;
+// } while (i < 5);
+// console.log(ourArray);
+
+
+
+
+
+
+
+
+
+// // replace loops with recursion
+
+
+// function multiply(arr,n){
+//   if(n<=0)
+//   return 1;
+//   else 
+//   {
+//     return multiply(arr,n-1)*arr[n-1];
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+// // generating random fractions with javaScript
+
+// console.log(Math.random()); // this will return a number between 0 and 1 even zero but never 1
+
+
+
+
+
+
+
+
+// // generating random whole number with jS
+
+// console.log(Math.floor(Math.random() * 20));
+
+
+
+
+
+
+
+
+
+
+
+// // generating random whole numbers between a range
+
+// function rangeNum(min,max)
+// {
+//   return Math.floor(Math.random()*(max-min+1))+min;
+// }
+
+// console.log(rangeNum(1,2));
+
+
+
+
+
+
+// THE PARSEINT FUNCTION PARSES A STRING AND RETURNS AN INTEGER
+
+
+
+
+
+
+
+
+
+
+// // USING THE PARSEINT AND THE RADIX
+
+
+// var a = parseInt("11", 2);
+
+// //The radix variable says that "11" is in the binary system, or base 2. This example converts the string "11" to an integer 3.
+
+
+
+
+// // USE OF THE CONDITIONAL OPERATOR
+
+// function findGreater(a, b) {
+//   return a > b ? "a is greater" : "b is greater";
+// }
+
+// console.log(findGreater(2,3));
+
+
+
+
+
+
+// //USE OF MULTIPLE TERNARY OPERATOR
+
+// function findGreaterOrEqual(a, b) {
+//   return (a === b) ? "a and b are equal" 
+//     : (a > b) ? "a is greater" 
+//     : "b is greater";
+// }
+// console.log(findGreaterOrEqual(3,3));
+
+
+
+
+
+
+// // use recursion to create a countDown
+// function countup(n) {
+//   if (n < 1) {
+//     return [];
+//   } else {
+//     const countArray = countup(n - 1);
+//     countArray.push(n);
+//     return countArray;
+//   }
+// }
+// console.log(countup(20));
