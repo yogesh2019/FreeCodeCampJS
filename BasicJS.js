@@ -169,5 +169,147 @@
 
 // BOOLEANS ARE NEVER WRITTEN IN QUOTES
 
-console.log(1 == '1');
-console.log(1==='1');
+// console.log(1 == '1');
+// console.log(1==='1');
+
+//comparison with greater than operator
+//console.log(1 > '1');
+
+// comparison with greator than or equal to operator
+
+// console.log(7>='3');
+
+
+// COMPARISON WITH LOGICAL AND & OR OPERATOR
+// function Test(num){
+//   if (num > 5 && num < 10) {
+//     return "Yes";
+//   }
+//   return "No";
+  
+// }
+// console.log(Test(7));
+
+// ELSE STATEMENT
+
+// function test(num){
+//   if (num > 10) {
+//     return "Bigger than 10";
+//   } else {
+//     return "10 or Less";
+//   }
+  
+// }
+
+// console.log(test(3));
+
+
+// // ELSE IF STATEMENT
+
+// function test(num){
+//   if (num > 15) {
+//     return "Bigger than 15";
+//   } else if (num < 5) {
+//     return "Smaller than 5";
+//   } else {
+//     return "Between 5 and 15";
+//   }
+  
+// }
+
+// console.log(test(5));
+
+// order of the else if statement is important
+
+
+// // chaining if else statement 
+
+// tiny
+//  small 
+//  medium 
+//  large 
+//  huge
+
+
+// // SWITCH
+
+// function alpha(lowercaseLetter)
+// {
+//   switch(lowercaseLetter)
+//    {
+//     case "a":
+//       console.log("A");
+//       break;
+//     case "b":
+//       console.log("B");
+//       break;
+//     default:
+//       console.log('other than a or b')
+//    }
+  
+// }
+// alpha('c');
+
+
+
+
+// // multiple identical options in switch statement
+// // if the break is omitted from a switch statement's case the following statement's are executed until a break is encoutered
+// function conv(number)
+// {
+//   switch(number) {
+//     case 1:
+//     case 2:
+//     case 3:
+//       console.log("1,2 or 3");
+//     case 4:
+//       console.log("4 alone");
+//   }
+  
+// }
+
+
+
+// REPLACING IF CHAINS WITH SWITCH
+
+
+
+
+
+// RETURNING BOOLEAN STATEMENTS FROM FUNCTIONS
+
+
+
+
+// // RETURN EARLY PATTERN FOR FUNCTIONS
+
+// function myFun() {
+//   console.log("Hello");
+//   return "World";  // YOU CAN USE THE IF CONDITION WHEREVER NEEDED
+//   console.log("byebye")
+// }
+// myFun();
+
+// // counting cards
+
+// var count = 0;
+
+// function cc(card) {
+//   // Only change code below this line
+//   if (card>=2 && card<=6)
+//    count++;
+//   else if(card>=7 && card<=9)
+//    count = count;
+//   else if(card == 10 || card == "J" || card == "Q" || card == "K" || card == "A")
+//    count--;
+
+// if(count <=0)
+//   return count+" Hold";
+// else
+//   return count+ " Bet";
+//   // Only change code above this line
+// }
+
+// cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+
