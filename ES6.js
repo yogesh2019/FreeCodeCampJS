@@ -83,5 +83,8 @@
 //   obj.newProp = "Test"; // will be ignored. Mutation not allowed
 // console.log("hello"); 
 //   // { name: "FreeCodeCamp", review:"Awesome"}
+
+
+console.log("hello");
   
 
