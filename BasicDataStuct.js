@@ -115,3 +115,28 @@
 
 
 
+
+// // adding key value pairs on js objects
+// const tekkenCharacter = {
+//     player: 'Hwoarang',
+//     fightingStyle: 'Tae Kwon Doe',
+//     human: true
+//   };
+// tekkenCharacter.origin = 'South Korea';  
+// tekkenCharacter['hair color'] = 'dyed orange';
+// const eyes = 'eye color';
+
+// tekkenCharacter[eyes] = 'brown';
+// // {
+// //     player: 'Hwoarang',
+// //     fightingStyle: 'Tae Kwon Doe',
+// //     human: true,
+// //     origin: 'South Korea',
+// //     'hair color': 'dyed orange',
+// //     'eye color': 'brown'
+// //   };
+  
+
+
+
+
