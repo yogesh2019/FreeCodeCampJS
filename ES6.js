@@ -45,3 +45,19 @@
 // console.log(i);
 // // returns "i is not defined"
 
+
+
+
+
+
+
+
+
+
+
+// Read only variable with const keyword
+// has added feature of assigning it only once  IT CANNOT BE REASSIGNED
+"use strict";
+const fav_pets = "cats";
+fav_pets = "dogs";// throws error
+
