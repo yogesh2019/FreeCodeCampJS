@@ -38,3 +38,28 @@
 // // todaysWeather equals ['snow', 'sleet'];
 // // weatherConditions still equals ['rain', 'snow', 'sleet', 'hail', 'clear']
 
+
+
+
+
+
+    // // copy an array with spread operator
+    // let thisArray = [true, true, undefined, false, null];
+    // let thatArray = [...thisArray];
+    // // thatArray equals [true, true, undefined, false, null]
+    // // thisArray remains unchanged, and is identical to thatArray
+
+
+
+
+
+
+
+// // combine arrays with spread operator
+// let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+
+// let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+// // thatArray now equals ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']
+
+
+
