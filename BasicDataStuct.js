@@ -74,3 +74,23 @@
 
 
 
+
+
+// // iterate through all the elements using the for loop
+// function greaterThanTen(arr) {
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[i] > 10) {
+//         newArr.push(arr[i]);
+//       }
+//     }
+//     return newArr;
+//   }
+  
+//   greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+//   // returns [12, 14, 80]
+  
+
+
+
+
