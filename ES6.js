@@ -55,9 +55,33 @@
 
 
 
-// Read only variable with const keyword
-// has added feature of assigning it only once  IT CANNOT BE REASSIGNED
-"use strict";
-const fav_pets = "cats";
-fav_pets = "dogs";// throws error
+// // Read only variable with const keyword
+// // has added feature of assigning it only once  IT CANNOT BE REASSIGNED
+// "use strict";
+// const fav_pets = "cats";
+// fav_pets = "dogs";// throws error
+
+
+
+
+
+
+
+
+
+// mutate an array with const
+// using const only prevents the reassignment of the variable identifier
+
+
+// // prevent data with Object.freeze()
+// var obj = {
+//     name:"FreeCodeCamp",
+//     review:"Awesome"
+//   };
+//   Object.freeze(obj);
+//   obj.review = "bad"; // will be ignored. Mutation not allowed
+//   obj.newProp = "Test"; // will be ignored. Mutation not allowed
+// console.log("hello"); 
+//   // { name: "FreeCodeCamp", review:"Awesome"}
+  
 
