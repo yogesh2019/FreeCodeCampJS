@@ -139,19 +139,23 @@
 
 
 
-// iterate throught the key using for .. in statement
+// // iterate throught the key using for .. in statement
 
-let users = {
-    Alan:"good",
-    Bran:"Bad",
-    Joey:"cool"
-};
+// let users = {
+//     Alan:"good",
+//     Bran:"Bad",
+//     Joey:"cool"
+// };
 
-for (let user in users)
-{
-    console.log(user);
-}
+// for (let user in users)
+// {
+//     console.log(user);
+// }
   
+
+
+
+// Object.keys(obj) will return all the properties but with no specific order
 
 
 
