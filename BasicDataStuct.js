@@ -135,6 +135,22 @@
 // //     'hair color': 'dyed orange',
 // //     'eye color': 'brown'
 // //   };
+
+
+
+
+// iterate throught the key using for .. in statement
+
+let users = {
+    Alan:"good",
+    Bran:"Bad",
+    Joey:"cool"
+};
+
+for (let user in users)
+{
+    console.log(user);
+}
   
 
 
